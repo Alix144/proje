@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WUCIZE</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- icon -->
+    <link rel="icon" href="images/icon.png">
+
+</head>
+<body>
+        <!-- Header -->
+        <div class="iletisim">
+            <div class="social-media">
+                <img src="images/instagram.png" alt="instagram-icon">
+                <div class="vertical-line"></div>
+                <img src="images/twitter.png" alt="twitter-icon">
+                <div class="vertical-line"></div>
+                <img src="images/facebook.png" alt="facebook-icon">
+            </div>
+            
+            <div class="telefon">
+                <img src="images/telefon.png" alt="Telefon">
+                <p>+90 555 111 23 23</p>
+                <div class="vertical-line"></div>
+            </div>
+        </div>
+
+        <div class="navbar navbar-expand-lg fixed-top">
+            <nav>
+                <a href="">ANASAYFA</a>
+                <a href="">HAKKIMIZDA</a>
+                <a href="">HİZMETLERİMİZ</a>
+                <a href="">EKİBİMİZ</a>
+                <a href="">BLOG</a>
+                <a href="">İLETİŞİM</a>
+            </nav>
+
+            <div class="arama">
+                <img src="images/arama.png" alt="Arama">
+                <div class="vertical-line"></div>
+                <button class=" randevu-btn">RANDEVU AL</button>
+            </div>
+
+            <img src="images/hamburger.png" alt="Hamburger-btn" class="hamburger" onclick="toggleBar()">
+
+            <div class="side-menu hide">
+                <h1>Proje</h1>
+                <div class="side-menu-nav">
+                  <a href="">ANASAYFA</a>
+                  <a href="">HAKKIMIZDA</a>
+                  <a href="">HİZMETLERİMİZ</a>
+                  <a href="">EKİBİMİZ</a>
+                  <a href="">BLOG</a>
+                  <a href="">İLETİŞİM</a>
+                </div>
+                <img src="images/close.png" alt="Close-btn" onclick="toggleBar()">
+            </div>
+        </div>
+
+        <!-- First Carousel -->
+        <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+          <div class="custom-indicators1">
+            <div data-bs-target="#carousel1" data-bs-slide-to="0" class="custom-indicator1 active"></div>
+            <div data-bs-target="#carousel1" data-bs-slide-to="1" class="custom-indicator1"></div>
+            <div data-bs-target="#carousel1" data-bs-slide-to="2" class="custom-indicator1"></div>
+        </div>
+
+          <div class="carousel-inner carousel-inner-h">
+              <div class="carousel-item active">
+                <img src="images/facial-surgery.png" class="d-block w-100" alt="Facial-Surgery">
+                <div class="intro-box">
+                  <h1>GÜZELLİĞİN KALBİNE HOŞGELDİNİZ!</h1>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas accusamus atque quo alias amet? Nulla asperiores culpa, provident voluptates officiis, saepe earum eos accusantium, iure sapiente adipisci quasi explicabo quis?</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/facial-surgery-2.png" class="d-block w-100" alt="...">
+                <div class="intro-box">
+                  <h1>GÜZELLİĞİN KALBİNE HOŞGELDİNİZ!</h1>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas accusamus atque quo alias amet? Nulla asperiores culpa, provident voluptates officiis, saepe earum eos accusantium, iure sapiente adipisci quasi explicabo quis?</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/facial-surgery3.png" class="d-block w-100" alt="...">
+                <div class="intro-box">
+                  <h1>GÜZELLİĞİN KALBİNE HOŞGELDİNİZ!</h1>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas accusamus atque quo alias amet? Nulla asperiores culpa, provident voluptates officiis, saepe earum eos accusantium, iure sapiente adipisci quasi explicabo quis?</p>
+                </div>
+              </div>
+          </div>
+        
+        </div>
+
+        <!-- Hizmetlerimiz -->
+        <div class="hizmetler">
+          <h1>Hizmetlerimiz <hr></h1>
+          <!-- 2nd Carousel -->
+          <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+            <div class="custom-indicators2">
+                <div data-bs-target="#carousel2" data-bs-slide-to="0" class="custom-indicator2 active">YÜZ</div>
+                <div data-bs-target="#carousel2" data-bs-slide-to="1" class="custom-indicator2">MEME</div>
+                <div data-bs-target="#carousel2" data-bs-slide-to="2" class="custom-indicator2">VÜCUT</div>
+            </div>
+        
+            <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="kart-div" alt="3 slide">
+                      <div class="kart">
+                        <img src="images/girl-nose.png" alt="Burun-Estetiği">
+                        <div class="text">
+                          <h4>Burun Estetiği</h4>
+                          <p>Lorem ipsum dolor sit amet consectetur  Impedit accusamus id qui delectus, vero maxime harum beatae laboriosam magni mollitia.</p>
+                        </div>
+                        <div class="arrow-btn"> <img src="images/next.png" alt=""></div>
+                      </div>
+                      <div class="kart">
+                        <img src="images/clean-skin.png" alt="Burun-Estetiği">
+                        <div class="text">
+                          <h4>Yüz Germe</h4>
+                          <p>Lorem ipsum dolor sit amet consectetur  Impedit accusamus id qui delectus, vero maxime harum beatae laboriosam magni mollitia.</p>
+                        </div>
+                        <div class="arrow-btn"> <img src="images/next.png" alt=""></div>
+                      </div>
+                      <div class="kart">
+                        <img src="images/female-eye.png" alt="Burun-Estetiği">
+                        <div class="text">
+                          <h4>Göz Estetiği</h4>
+                          <p>Lorem ipsum dolor sit amet consectetur  Impedit accusamus id qui delectus, vero maxime harum beatae laboriosam magni mollitia.</p>
+                        </div>
+                        <div class="arrow-btn"> <img src="images/next.png" alt=""></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="kart-div" alt="4 slide">
+                      <div class="kart">
+                        <img src="images/girl-nose.png" alt="Burun-Estetiği">
+                        <div class="text">
+                          <h4>Burun Estetiği</h4>
+                          <p>Lorem ipsum dolor sit amet consectetur  Impedit accusamus id qui delectus, vero maxime harum beatae laboriosam magni mollitia.</p>
+                        </div>
+                        <div class="arrow-btn"> <img src="images/next.png" alt=""></div>
+                      </div>
+                      <div class="kart">
+                        <img src="images/clean-skin.png" alt="Burun-Estetiği">
+                        <div class="text">
+                          <h4>Yüz Germe</h4>
+                          <p>Lorem ipsum dolor sit amet consectetur  Impedit accusamus id qui delectus, vero maxime harum beatae laboriosam magni mollitia.</p>
+                        </div>
+                        <div class="arrow-btn"> <img src="images/next.png" alt=""></div>
+                      </div>
+                      <div class="kart">
+                        <img src="images/female-eye.png" alt="Burun-Estetiği">
+                        <div class="text">
+                          <h4>Göz Estetiği</h4>
+                          <p>Lorem ipsum dolor sit amet consectetur  Impedit accusamus id qui delectus, vero maxime harum beatae laboriosam magni mollitia.</p>
+                        </div>
+                        <div class="arrow-btn"> <img src="images/next.png" alt=""></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="kart-div">
+                      <div class="kart">
+                        <img src="images/girl-nose.png" alt="Burun-Estetiği">
+                        <div class="text">
+                          <h4>Burun Estetiği</h4>
+                          <p>Lorem ipsum dolor sit amet consectetur  Impedit accusamus id qui delectus, vero maxime harum beatae laboriosam magni mollitia.</p>
+                        </div>
+                        <div class="arrow-btn"> <img src="images/next.png" alt=""></div>
+                      </div>
+                      <div class="kart">
+                        <img src="images/clean-skin.png" alt="Burun-Estetiği">
+                        <div class="text">
+                          <h4>Yüz Germe</h4>
+                          <p>Lorem ipsum dolor sit amet consectetur  Impedit accusamus id qui delectus, vero maxime harum beatae laboriosam magni mollitia.</p>
+                        </div>
+                        <div class="arrow-btn"> <img src="images/next.png" alt=""></div>
+                      </div>
+                      <div class="kart">
+                        <img src="images/female-eye.png" alt="Burun-Estetiği">
+                        <div class="text">
+                          <h4>Göz Estetiği</h4>
+                          <p>Lorem ipsum dolor sit amet consectetur  Impedit accusamus id qui delectus, vero maxime harum beatae laboriosam magni mollitia.</p>
+                        </div>
+                        <div class="arrow-btn"> <img src="images/next.png" alt=""></div>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+          </div>
+
+          <div class="custom-indicators2-2">
+            <div data-bs-target="#carousel2" data-bs-slide-to="0" class="custom-indicator2-2 active"></div>
+            <div data-bs-target="#carousel2" data-bs-slide-to="1" class="custom-indicator2-2"></div>
+            <div data-bs-target="#carousel2" data-bs-slide-to="2" class="custom-indicator2-2"></div>
+          </div>
+        </div>
+
+        <!-- Özellikler -->
+        <div class="ozellikler">
+          <div class="ozellik">
+            <img src="images/odul.png" alt="Ödül">
+            <h3>25+<br>Yıllık Deneyim</h3>
+          </div>
+
+          <div class="vertical-line" style="border:2px solid #fff;"></div>
+          <hr>
+
+          <div class="ozellik">
+            <img src="images/doktor.png" alt="Doktor">
+            <h3>5,000 +<br>Cerrahi Operasyon</h3>
+          </div>
+
+          <div class="vertical-line" style="border:2px solid#fff;"></div>
+          <hr>
+
+          <div class="ozellik">
+            <img src="images/medical-report.png" alt="Medical-Report">
+            <h3>40 +<br>Ülke Sayısı</h3>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+          <div class="hakkimizda footer-div">
+            <h5>HAKKIMIZDA</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores magni cupiditate consequuntur soluta possimus quidem, beatae natus animi ducimus cum. Libero ratione, aperiam dolorem cumque fugiat voluptate dolore omnis dolorum.
+            dignissimos debitis illo! Aut, saepe est.</p>
+          </div>
+
+          <div class="iletisim2 footer-div">
+            <div>
+              <img src="images/konum.png" alt="Konum">
+              <p>Zeytinlik Mah. Türkçü Sok. Ferah Palas 
+                Apartman A Blok No:16 Daire:9 Kat:4
+                Bakırköy / İSTANBUL</p>
+            </div>
+
+            <div>
+              <img src="images/telefon.png" alt="Telefon">
+              <p>+90 535 12345 67<br>+90 535 12345 67</p>
+            </div>
+            <div>
+              <img src="images/mail.png" alt="Email">
+              <p>bilgi@dentalcare.com<br>info@dentalcare.com</p>
+            </div>
+          </div>
+
+          <div class="e-bulten footer-div">
+            <h5>E-BÜLTEN</h5>
+            <p>Haftalık haberler ve güncellemeler için kaydolun <br>E-mail</p>
+            <div class="icons">
+              <img src="images/next.png" alt="Arrow">
+              <hr>
+            </div>
+            <div class="social-media">
+              <img src="images/facebook.png" alt="Facebook">
+              <img src="images/twitter.png" alt="Twitter">
+              <img src="images/instagram.png" alt="Instagram">
+            </div>
+          </div>
+        </footer>
+
+    <!-- JS Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- JS -->
+    <script>
+      var sideBar = document.querySelector(".side-menu");
+      var display = 0;
+
+      function toggleBar(){
+          if(display == 1){
+              sideBar.style.display = 'block';
+              display = 0;
+          }
+        
+          else{
+              sideBar.style.display = "none"
+              display = 1;
+          }
+      }
+    </script>
+
+</body>
+</html>
